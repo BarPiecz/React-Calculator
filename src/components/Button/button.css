@@ -1,0 +1,31 @@
+.button {
+   flex-basis: 24.5%;
+   text-align: center;
+   height: calc(15vh - 6px);
+   margin-bottom: 1px;
+   line-height: calc(15vh - 1px);
+   box-sizing: border-box;
+   border-radius: 2px;
+}
+
+.button:hover {
+   cursor: pointer;
+}
+
+.light-grey {
+   background-color: rgba(211, 211, 211, 0.226);
+   color: black;
+}
+
+.red {
+   background-color: red;
+   color: white;
+}
+
+.lightgreen {
+   background-color: lightgreen;
+}
+
+.dark-grey {
+   background-color: darkgray;
+}
